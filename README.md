@@ -10,19 +10,16 @@ Detect pools on aerial images. Can be used for market analysis for a swimming po
 
 ### Data
 
-50x50px tiles containing a pool or not.
-
-~1500 tiles for positive class, ~1500 for negative class.
-
-No segmentation masks, no coordinates. Just `pool` or `no pool` for each tile.
-
-Private dataset ¯\\\_(ツ)_/¯
+- 50x50px tiles containing a pool or not.
+- ~1500 tiles for positive class, ~1500 for negative class.
+- No segmentation masks, no coordinates. Just `pool` or `no pool` for each tile.
+- Private dataset ¯\\\_(ツ)_/¯
 
 ### Algorithm
 
-Convolutional Neural Network (resnet50) with class activation maps to generate a heatmap. Simple computer vision algorithms to detect "blobs" and return the swimming pools' coordinates.
-
-Inference is done on 800x1600px images.
+- Convolutional Neural Network (resnet50) with class activation maps to generate a heatmap. Simple computer vision algorithms to detect "blobs" and return the swimming pools' coordinates.
+- Inference is done on 800x1600px images. No need to split the image into 50x50 patches since the network uses a Global Average Pooling layer.
+- Network is trained with simple data aug, Adam (with lr=3e-4 [(¬‿¬)](https://twitter.com/karpathy/status/801621764144971776)).
 
 1) Class Activation Maps on tiles
     ![](figures/cam_tile_1.png)
