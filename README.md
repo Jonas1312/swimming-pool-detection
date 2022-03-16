@@ -4,7 +4,7 @@ One-day project ✍(◔◡◔)
 
 ## Problematic
 
-Detect pools on aerial images. Can be used for market analysis for a swimming pool seller or fight against tax evasion of undeclared swimming pools.
+Detect pools on aerial images. Can be used for market analysis for a swimming pool seller or fight against tax evasion of undeclared swimming pools: [12,000 illegal swimming pools detected in Provence thanks to artificial intelligence](https://www.francebleu.fr/infos/societe/dans-le-var-deja-4000-piscines-non-declarees-detectees-grace-a-l-intelligence-artificielle-1642074759).
 
 ## Proposed Approach
 
