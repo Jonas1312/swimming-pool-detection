@@ -67,7 +67,7 @@ Detect pools on aerial images. Can be used for market analysis for a swimming po
 
 ## Some Remarks
 
-- HSV filtering before feeding a tile in the CNN might improve the results...?
+- HSV filtering on blue shades before feeding a tile in the CNN might improve the results...?
 - Binarization and contour detection need some finetuning.
 
 ## Repo structure
