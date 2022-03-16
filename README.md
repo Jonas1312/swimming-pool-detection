@@ -34,12 +34,41 @@ Detect pools on aerial images. Can be used for market analysis for a swimming po
     ![](figures/zone13_bbox.png)
 
 ## Results
-
+<details>
+  <summary>Result 1</summary>
+    
 ![](./figures/ex1.PNG)
+
+</details>
+<details>
+  <summary>Result 2</summary>
+    
 ![](./figures/ex2.PNG)
+
+</details>
+<details>
+  <summary>Result 3</summary>
+    
 ![](./figures/ex3.PNG)
+
+</details>
+<details>
+  <summary>Result 4</summary>
+    
 ![](./figures/ex4.PNG)
+
+</details>
+<details>
+  <summary>Result 5</summary>
+    
 ![](./figures/ex5.PNG)
+
+</details>
+
+## Some Remarks
+
+- HSV filtering before feeding a tile in the CNN might improve the results...?
+- Binarization and contour detection need some finetuning.
 
 ## Repo structure
 
